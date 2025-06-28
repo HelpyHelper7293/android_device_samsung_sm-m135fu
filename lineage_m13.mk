@@ -19,9 +19,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
-# TODO: Add this file
-## Inherit from a21s device
-$(call inherit-product, device/samsung/a21s/device.mk)
+
+## Inherit from SM-M135FU device
+$(call inherit-product, device/samsung/SM-M135FU/device.mk)
 
 ## Boot Animation
 TARGET_SCREEN_HEIGHT := 2408
