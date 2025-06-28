@@ -1,0 +1,3 @@
+add_lunch_combo lineage_sm-m135fu-user
+add_lunch_combo lineage_sm-m135fu-userdebug
+add_lunch_combo lineage_sm-m135fu-eng
