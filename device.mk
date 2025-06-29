@@ -15,10 +15,10 @@
 #
 
 # Inherit from the common tree
-$(call inherit-product, device/samsung/SM-M135FU-common/common.mk)
+$(call inherit-product, device/samsung/m135fu-common/common.mk)
 
 # Inherit proprietary files
-$(call inherit-product, vendor/samsung/SM-M135FU/SM-M135FU-vendor.mk)
+$(call inherit-product, vendor/samsung/m135fu/m135fu-vendor.mk)
 
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
